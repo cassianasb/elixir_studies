@@ -53,4 +53,7 @@ defmodule Exmon do
     do_move(move)
   end
   defp computer_move(_), do: :ok
+
+  # TODO: sortear player que inicia a partida
+  # TODO: aumentar a chance do computador se curar qdoo estiver abaixo de 40 pts de vida
 end
